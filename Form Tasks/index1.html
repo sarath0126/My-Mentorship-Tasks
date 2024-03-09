@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body>
+    <center><h1>Registration Form</h1></center>
+        <form>
+           
+            <table align="center">
+                <tr>
+                    <td><label for="firstname">FirstName:</label></td>
+                        
+                    <td><input type="text" name="firstname" id="firstname" placeholder="Firstname"></td> 
+                    
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="lastname">LastName:</label>
+                        
+                    </td>
+                    <td><input type="text" name="lastname" id="lastname" placeholder="LastName"></td>
+                </tr>
+
+                <tr>
+                    
+                        
+                           <td>
+
+                            <label for="male">Male :</label>
+                            <input type="radio" name="gender" id="male">
+    
+                           </td> 
+
+                           <td>
+                            <label for="female">Female :</label>
+                            <input type="radio" name="gender" id="female">
+                           </td>
+                            
+                           <td>
+                            <label for="others">Others :</label>
+                            <input type="radio" name="gender" id="others">
+                           </td>
+                            
+                        
+                       
+                </tr>
+
+                <tr>
+                    <td><label for="dob">Date of Birth:</label></td>
+                    <td><input type="date" id="dob" name="dob"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Email"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="mobile">Phone :</label></td>
+                    <td><input type="number" id="mobile" name="mobile" maxlength="10" placeholder="+91000000000"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="country">Country:</label></td>
+                    <td><select name="country" id="country">
+                        <option value="india">India</option>
+                        <option value="uk">U.K</option>
+                        <option value="Ireland">Ireland</option>
+                        <option value="U.S.A">U.S.A</option>
+                    </select></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="address">Address:</label>
+                    </td>
+
+                    <td><textarea name="address" id="address" cols="20" rows="5" placeholder="Address..."></textarea></td>
+                </tr>
+
+                <tr>
+                    <td><label for="submit"></label></td>
+                    <td><input type="button" value="Submit" id="submit"></td>
+                </tr>
+
+
+
+            </table>
+
+        </form>
+        
+    
+</body>
+</html>
